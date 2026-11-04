@@ -1,6 +1,6 @@
 # HKRS Comparison Images
 
-Public figure assets for the HKRS Comparison website. The application source remains in the separate private `lawrence8880/hkrs-comparison` repository. This repository contains only figure files and asset documentation.
+Public figure and standard-PDF assets for the HKRS Comparison website. The application source remains in the separate private `lawrence8880/hkrs-comparison` repository. This repository contains only media files and asset documentation.
 
 ## Upload an image directly in GitHub
 
@@ -41,6 +41,10 @@ For a new figure, upload the file here, then edit and sync/publish the applicati
 
 ## Privacy and rights
 
-Every image in this repository is publicly accessible. Do not upload personal, confidential, or restricted material. Upload only figures you are authorized to publish. No license to the source standards is granted by this repository.
+Every image and PDF in this repository is publicly accessible. Do not upload personal, confidential, or restricted material. Upload only documents and figures you are authorized to publish. No license to the source standards is granted by this repository.
 
 `manifest.json` records the initial migrated files and checksums. You do not need to edit it to upload future figures.
+
+## Standard PDFs
+
+Upload mapped PDFs to [standards/](https://github.com/lawrence8880/hkrs-comparison-images/tree/main/standards), not quotes/. Follow the folder's README and the exact filenames shown in the website popup or private application inventory. Clicking a mapped HK/CN standard name opens a PDF viewer with download controls. New files at existing mapped paths need no app rebuild; new names/filenames require an app mapping update. No standard PDFs were included in the initial folder setup.
