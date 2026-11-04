@@ -47,4 +47,8 @@ Every image and PDF in this repository is publicly accessible. Do not upload per
 
 ## Standard PDFs
 
-Upload mapped PDFs to [standards/](https://github.com/lawrence8880/hkrs-comparison-images/tree/main/standards), not quotes/. Follow the folder's README and the exact filenames shown in the website popup or private application inventory. Clicking a mapped HK/CN standard name opens a PDF viewer with download controls. New files at existing mapped paths need no app rebuild; new names/filenames require an app mapping update. No standard PDFs were included in the initial folder setup.
+Upload mapped PDFs to [standards/](https://github.com/lawrence8880/hkrs-comparison-images/tree/main/standards), not quotes/. Follow the folder's README and exact filenames in the private application inventory. Chinese standards open their published GitHub Pages PDF directly in the native browser reader in a new tab; official HK standard links remain on their original source sites, including CS1:2010's separate volumes. New files at existing mapped paths need no app rebuild, but wait for **pages build and deployment** to finish; new names or filenames require an app mapping update. Native viewing versus automatic download depends on browser settings. Original PDF bytes and independent quotes remain unchanged.
+
+## GitHub Pages publication
+
+The public media site publishes `main` → `/(root)`. Its `.nojekyll` marker prevents content transformation. PDF paths are `https://lawrence8880.github.io/hkrs-comparison-images/standards/<exact-filename>.pdf`. Only public media and its documentation are published; no private app code or clause data is copied here. Existing quote-image paths remain unchanged. Preserve `index.html` and `.nojekyll` when uploading media.
